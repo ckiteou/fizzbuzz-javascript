@@ -20,4 +20,7 @@ Javabuzz.prototype.says = function(number) {
   if (this.isDivisibleByThree(number)) {
     return "Java";
   }
+  if (this.isDivisibleByFive(number)) {
+    return "Buzz";
+  }
 };
